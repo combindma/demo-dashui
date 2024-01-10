@@ -68,6 +68,13 @@
         <div><x-dash-ui-button type="button" aria-controls="flash-message-1">Show flash message</x-dash-ui-button></div>
         <div><x-dash-ui-button type="button" aria-controls="flash-message-2">Show flash error</x-dash-ui-button></div>
     </div>
-    <x-dash-ui-flash-message message="Message sent" role="status" id="flash-message-1" data-duration="5000"/>
-    <x-dash-ui-flash-message message="Server error" error="true" role="status" id="flash-message-2" data-duration="5000"/>
+    <x-dash-ui-flash-message message="Message sent" id="flash-message-1"/>
+    <x-dash-ui-flash-message message="Server error" :error="true" :show="false" id="flash-message-2" data-duration="5000"/>
+</div>
+
+<div class="mb-10">
+    <h1 class="mb-4 text-xl font-medium">Circle loader</h1>
+    <div class="bg-[rgba(241,241,241,1)] p-10">
+        <x-dash-ui-circle-loader/>
+    </div>
 </div>
