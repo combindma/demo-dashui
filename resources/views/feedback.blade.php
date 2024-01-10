@@ -1,80 +1,80 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Banner</h1>
     <div class="flex flex-col gap-y-3 bg-[rgba(241,241,241,1)] p-10">
-        <x-dash-ui-banner title="Default banner">
+        <x-dashui-banner title="Default banner">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner title="Success banner" tone="success">
+        <x-dashui-banner title="Success banner" tone="success">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner title="Warning banner" tone="warning">
+        <x-dashui-banner title="Warning banner" tone="warning">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner title="Critical banner" tone="critical">
+        <x-dashui-banner title="Critical banner" tone="critical">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner>
+        <x-dashui-banner>
             Use your finance report to get detailed information about your business.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner tone="success">
+        <x-dashui-banner tone="success">
             Use your finance report to get detailed information about your business.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner tone="warning">
+        <x-dashui-banner tone="warning">
             Use your finance report to get detailed information about your business.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
 
-        <x-dash-ui-banner tone="critical">
+        <x-dashui-banner tone="critical">
             Use your finance report to get detailed information about your business.
-        </x-dash-ui-banner>
+        </x-dashui-banner>
     </div>
 </div>
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Alert</h1>
     <div class="flex flex-col gap-y-3 bg-[rgba(241,241,241,1)] p-10">
-        <x-dash-ui-card>
+        <x-dashui-card>
             <x-slot:heading>
                 Online store dashboard
             </x-slot:heading>
-            <x-dash-ui-alert>Use your finance report to get detailed information about your business.</x-dash-ui-alert>
-            <x-dash-ui-alert tone="success">Use your finance report to get detailed information about your business.</x-dash-ui-alert>
-            <x-dash-ui-alert tone="warning">Use your finance report to get detailed information about your business.</x-dash-ui-alert>
-            <x-dash-ui-alert tone="critical">Use your finance report to get detailed information about your business.</x-dash-ui-alert>
-            <x-dash-ui-alert tone="warning">
+            <x-dashui-alert>Use your finance report to get detailed information about your business.</x-dashui-alert>
+            <x-dashui-alert tone="success">Use your finance report to get detailed information about your business.</x-dashui-alert>
+            <x-dashui-alert tone="warning">Use your finance report to get detailed information about your business.</x-dashui-alert>
+            <x-dashui-alert tone="critical">Use your finance report to get detailed information about your business.</x-dashui-alert>
+            <x-dashui-alert tone="warning">
                 <p class="mb-1">Connect your instagram account to your shop before proceeding.</p>
-                <x-dash-ui-button type="button" class="text-neutral-900">Connect account</x-dash-ui-button>
-            </x-dash-ui-alert>
+                <x-dashui-button type="button" class="text-neutral-900">Connect account</x-dashui-button>
+            </x-dashui-alert>
             <p>View a summary of your online store’s performance.</p>
-        </x-dash-ui-card>
+        </x-dashui-card>
     </div>
 </div>
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Inline error</h1>
     <div class="bg-[rgba(241,241,241,1)] p-10">
-        <x-dash-ui-inline-error message="Store name is required"/>
+        <x-dashui-inline-error message="Store name is required"/>
     </div>
 </div>
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Flash Message</h1>
     <div class="flex flex-col gap-3 bg-[rgba(241,241,241,1)] p-10">
-        <div><x-dash-ui-button type="button" aria-controls="flash-message-1">Show flash message</x-dash-ui-button></div>
-        <div><x-dash-ui-button type="button" aria-controls="flash-message-2">Show flash error</x-dash-ui-button></div>
+        <div><x-dashui-button type="button" aria-controls="flash-message-1">Show flash message</x-dashui-button></div>
+        <div><x-dashui-button type="button" aria-controls="flash-message-2">Show flash error</x-dashui-button></div>
     </div>
-    <x-dash-ui-flash-message message="Message sent" id="flash-message-1"/>
-    <x-dash-ui-flash-message message="Server error" :error="true" :show="false" id="flash-message-2" data-duration="5000"/>
+    <x-dashui-flash-message message="Message sent" id="flash-message-1"/>
+    <x-dashui-flash-message message="Server error" :error="true" :show="false" id="flash-message-2" data-duration="5000"/>
 </div>
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Circle loader</h1>
     <div class="bg-[rgba(241,241,241,1)] p-10">
-        <x-dash-ui-circle-loader/>
+        <x-dashui-circle-loader/>
     </div>
 </div>
