@@ -1,0 +1,7 @@
+@import '../../node_modules/system-font-css/system-font.css';
+/*@import '../../vender/combindma/dash-ui/resources/css/dash-ui.css';*/
+@import '../../../../Packages/dash-ui/resources/css/dash-ui.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
