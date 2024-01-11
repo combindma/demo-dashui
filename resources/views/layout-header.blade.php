@@ -79,8 +79,8 @@
                 </x-dashui-button-group>
             </div>
             <x-dashui-popover id="popover-actions" role="dialog">
-                <x-dashui-button type="button" variant="subtle">Share on Facebook</x-dashui-button>
-                <x-dashui-button type="button" variant="subtle">View on your store</x-dashui-button>
+                <x-dashui-action-link type="button" label="Share on Facebook"/>
+                <x-dashui-action-link type="button" label="View on your store"/>
             </x-dashui-popover>
         </x-dashui-page-header>
 

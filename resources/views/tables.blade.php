@@ -51,7 +51,7 @@
             ['title' => 'Fulfillment status'],
         ]">
             <x-dashui-table-row :id="1020" url="#0">
-                <x-dashui-table-cell><x-dashui-button as="link" href="#0" variant="plain" class="font-bold">#1020</x-dashui-button></x-dashui-table-cell>
+                <x-dashui-table-cell><a href="#0" class="font-bold text-sm text-blue-600 hover:text-blue-800 hover:cursor-pointer hover:underline">#1020</a></x-dashui-table-cell>
                 <x-dashui-table-cell>Jul 20 at 4:34pm</x-dashui-table-cell>
                 <x-dashui-table-cell>Jaydon Stanton</x-dashui-table-cell>
                 <x-dashui-table-cell class="text-right">$969.44</x-dashui-table-cell>
@@ -60,7 +60,7 @@
             </x-dashui-table-row>
 
             <x-dashui-table-row :id="1019" url="#0">
-                <x-dashui-table-cell><x-dashui-button as="link" href="#0" variant="plain" class="font-bold">#1019</x-dashui-button></x-dashui-table-cell>
+                <x-dashui-table-cell><a href="#0" class="font-bold text-sm text-blue-600 hover:text-blue-800 hover:cursor-pointer hover:underline">#1019</a></x-dashui-table-cell>
                 <x-dashui-table-cell>Jul 20 at 4:44pm</x-dashui-table-cell>
                 <x-dashui-table-cell>Ruben Westerfelt</x-dashui-table-cell>
                 <x-dashui-table-cell class="text-right">$701.19</x-dashui-table-cell>
@@ -89,8 +89,7 @@
                 <x-dashui-table-cell class="text-right">
                     <x-dashui-button type="button" variant="subtle" aria-controls="popover-table-1">Options <x-gmdi-expand-more class="w-4 h-4"/></x-dashui-button>
                     <x-dashui-popover id="popover-table-1">
-                        <x-dashui-button type="button" variant="subtle">Action 1</x-dashui-button>
-                        <x-dashui-button type="button" variant="subtle">Action 2</x-dashui-button>
+                        <x-dashui-action-link type="button" label="Action"/>
                     </x-dashui-popover>
                 </x-dashui-table-cell>
             </x-dashui-table-row>
@@ -105,8 +104,7 @@
                 <x-dashui-table-cell class="text-right">
                     <x-dashui-button type="button" variant="subtle" aria-controls="popover-table-1">Options <x-gmdi-expand-more class="w-4 h-4"/></x-dashui-button>
                     <x-dashui-popover id="popover-table-1">
-                        <x-dashui-button type="button" variant="subtle">Action 1</x-dashui-button>
-                        <x-dashui-button type="button" variant="subtle">Action 2</x-dashui-button>
+                        <x-dashui-action-link type="button" label="Action"/>
                     </x-dashui-popover>
                 </x-dashui-table-cell>
             </x-dashui-table-row>
@@ -177,13 +175,13 @@
                     <x-dashui-button type="button" variant="subtle" aria-controls="popover-filter-1">Payment <x-gmdi-expand-more class="w-4 h-4"/></x-dashui-button>
                     <x-dashui-button type="button" variant="subtle" aria-controls="popover-filter-2">Status <x-gmdi-expand-more class="w-4 h-4"/></x-dashui-button>
                     <x-dashui-popover id="popover-filter-1">
-                        <x-dashui-button as="link" href="#0" variant="subtle">Paid</x-dashui-button>
-                        <x-dashui-button as="link" href="#0" variant="subtle">Partially paid</x-dashui-button>
+                        <x-dashui-action-link as="link" href="#0" label="Paid"/>
+                        <x-dashui-action-link as="link" href="#0" label="Partially paid"/>
                     </x-dashui-popover>
                     <x-dashui-popover id="popover-filter-2">
-                        <x-dashui-button as="link" href="#0" variant="subtle" class="bg-neutral-200 hover:bg-neutral-200">Unfulfilled</x-dashui-button>
-                        <x-dashui-button as="link" href="#0" variant="subtle">Partially fulfilled</x-dashui-button>
-                        <x-dashui-button as="link" href="#0" variant="subtle">Completed</x-dashui-button>
+                        <x-dashui-action-link type="button" label="Unfulfilled" :active="true"/>
+                        <x-dashui-action-link as="link" href="#0" label="Partially fulfilled"/>
+                        <x-dashui-action-link as="link" href="#0" label="Completed"/>
                     </x-dashui-popover>
                 </div>
                 <div class="flex items-center gap-x-1">
@@ -193,8 +191,8 @@
                     </x-dashui-button>
                     <x-dashui-popover id="popover-sort" role="dialog">
                         <span class="text-xs">Sort by</span>
-                        <x-dashui-button type="button" variant="subtle">Date ascending</x-dashui-button>
-                        <x-dashui-button type="button" variant="subtle">Price low</x-dashui-button>
+                        <x-dashui-action-link type="button" label="Date ascending"/>
+                        <x-dashui-action-link type="button" label="Price low"/>
                     </x-dashui-popover>
                 </div>
             </x-slot:filter>

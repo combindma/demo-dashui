@@ -4,11 +4,11 @@
         <div class="pb-[50px]">
             <x-dashui-button type="button" aria-controls="popover">
                 Toggle popover
-                <x-gmdi-expand-more class="w-4 h-4"/>
+                <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover" role="dialog">
-                <x-dashui-button type="button" variant="subtle">Action 1</x-dashui-button>
-                <x-dashui-button type="button" variant="subtle">Action 2</x-dashui-button>
+                <x-dashui-action-link as="link" href="#0" label="Action 1"/>
+                <x-dashui-action-link as="link" href="#0" label="Action 2"/>
             </x-dashui-popover>
         </div>
     </div>
