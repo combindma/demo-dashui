@@ -9,7 +9,7 @@
     @vite(['resources/css/tailwind.css'])
     @livewireStyles
 </head>
-<body class="antialiased">
+<body>
 
 @yield('content')
 

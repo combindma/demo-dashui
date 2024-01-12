@@ -4,7 +4,7 @@
         <h1 class="mb-3 text-2xl font-bold lg:text-3xl">Components</h1>
         <p class="mb-10 text-lg">Components are the reusable blade blocks for creating an admin experience like Shopify.</p>
 
-        <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
+       {{-- <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
             <div class="lg:col-span-3">
                 <h4 class="text-xl font-bold lg:text-2xl">Elements</h4>
             </div>
@@ -75,9 +75,9 @@
             <div class="lg:col-span-9">
                 @include('components.table.index-table')
             </div>
-        </div>
+        </div>--}}
 
-        <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
+        {{--<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
             <div class="lg:col-span-3">
                 <h4 class="text-xl font-bold lg:text-2xl">Navigation</h4>
             </div>
@@ -86,7 +86,15 @@
                @include('components.navigation.tabs')
                @include('components.navigation.page-header')
                @include('components.navigation.top-bar')
-               @include('components.navigation.sidebar')
+            </div>
+        </div>--}}
+
+        <div class="grid grid-cols-1 items-center gap-4 lg:grid-cols-12 mb-10">
+            <div class="lg:col-span-3">
+                <h4 class="text-xl font-bold lg:text-2xl">App</h4>
+            </div>
+            <div class="lg:col-span-9">
+                <a href="{{ url('frame') }}" class="underline font-medium text-sl" target="_blank">Show page</a>
             </div>
         </div>
     </div>
