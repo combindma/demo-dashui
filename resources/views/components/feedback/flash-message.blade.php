@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Flash Message</h1>
-    <div class="flex flex-col gap-3 bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="flex flex-col gap-3 bg-gray-200/60 p-4 lg:p-10">
         <div><x-dashui-button type="button" aria-controls="flash-message-1">Show flash message</x-dashui-button></div>
         <div><x-dashui-button type="button" aria-controls="flash-message-2">Show flash error</x-dashui-button></div>
     </div>

@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Badge</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-4 lg:p-10">
         <x-dashui-card>
             <div class="flex flex-wrap items-center gap-3">
                 <x-dashui-badge>Default</x-dashui-badge>

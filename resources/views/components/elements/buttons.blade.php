@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Buttons</h1>
-    <div class="flex flex-wrap items-center gap-3 bg-[rgba(241,241,241,1)] p-4 lg:p-4 lg:p-10">
+    <div class="flex flex-wrap items-center gap-3 bg-gray-200/60 p-4 lg:p-4 lg:p-10">
         <x-dashui-button type="button">Default</x-dashui-button>
         <x-dashui-button type="button" variant="primary">Primary</x-dashui-button>
         <x-dashui-button type="button" variant="primary" tone="critical">Primary critical</x-dashui-button>
@@ -29,7 +29,7 @@
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Button group</h1>
-    <div class="flex flex-col gap-y-3 bg-[rgba(241,241,241,1)] p-4 lg:p-4 lg:p-10">
+    <div class="flex flex-col gap-y-3 bg-gray-200/60 p-4 lg:p-4 lg:p-10">
         <x-dashui-button-group>
             <x-dashui-button type="button">Cancel</x-dashui-button>
             <x-dashui-button type="button" variant="primary">Save</x-dashui-button>

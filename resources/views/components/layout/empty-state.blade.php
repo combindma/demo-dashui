@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Empty state</h1>
-    <div class="flex flex-col gap-y-4 bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="flex flex-col gap-y-4 bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-empty-state>
             <x-slot:illustration>
                 <img alt="" src="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png" class="w-full">

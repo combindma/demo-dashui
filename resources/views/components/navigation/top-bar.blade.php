@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Top bar</h1>
-    <div class="relative bg-[rgba(241,241,241,1)]">
+    <div class="relative bg-gray-200/60">
         <x-dashui-top-bar class="absolute" userName="Dharma" userInitials="OH" menuId="menu-sidebar" logo="https://cdn.shopify.com/s/files/1/2376/3301/files/Shopify_Secondary_Inverted.png" url="#">
             <x-slot:searchField>
                 <form action="#">

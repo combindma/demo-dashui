@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Action link</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <div class="mt-5">
             <x-dashui-button type="button" aria-controls="popover-nav-1">
                 In a popover

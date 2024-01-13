@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Modal default</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-default">Show modal window</x-dashui-button>
 
         <x-dashui-modal activator="modal-default" title="Reach more shoppers with Instagram product tags" role="alertdialog" aria-labelledby="modal-title"
@@ -16,7 +16,7 @@
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Small Modal</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-small">Show modal window</x-dashui-button>
 
         <x-dashui-modal activator="modal-small" title="Reach more shoppers with Instagram product tags" size="small">
@@ -31,7 +31,7 @@
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Large Modal</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-large">Show modal window</x-dashui-button>
 
         <x-dashui-modal activator="modal-large" title="Reach more shoppers with Instagram product tags" size="large">
@@ -47,7 +47,7 @@
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Modal without a title</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-untitled">Show modal window</x-dashui-button>
 
         <x-dashui-modal activator="modal-untitled">
@@ -62,7 +62,7 @@
 
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Full width Modal</h1>
-    <div class="bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-full">Show modal window</x-dashui-button>
 
         <x-dashui-modal activator="modal-full" title="Reach more shoppers with Instagram product tags" size="fullScreen">

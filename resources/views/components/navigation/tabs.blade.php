@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Tabs</h1>
-    <div class="flex flex-col gap-y-5 bg-[rgba(241,241,241,1)] p-4 lg:p-10">
+    <div class="flex flex-col gap-y-5 bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-tabs :tabs="[
         ['label' => 'All', 'panelId' => 'panel-id-1', 'selected' => true],
         ['label' => 'Tab 2', 'panelId' => 'panel-id-2'],

@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Box</h1>
-    <div class="flex flex-col gap-y-4 bg-[rgba(241,241,241,1)] p-4 lg:p-4 lg:p-10">
+    <div class="flex flex-col gap-y-4 bg-gray-200/60 p-4 lg:p-4 lg:p-10">
         <x-dashui-box>
             <div class="bg-gray-400">Content inside a box</div>
         </x-dashui-box>
