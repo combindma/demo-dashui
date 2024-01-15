@@ -1,6 +1,6 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Action link</h1>
-    <div class="bg-gray-200/60 p-4 lg:p-10">
+    <div class="bg-gray-200/60 p-4 lg:p-10 lg:pb-36">
         <div class="mt-5">
             <x-dashui-button type="button" aria-controls="popover-nav-1">
                 In a popover
@@ -78,12 +78,6 @@
                 <x-dashui-action-link label="Blog posts" helpText="Manage your blog articles"/>
                 <x-dashui-action-link label="Blogs" helpText="Manage blogs published to your Online Store"/>
             </x-dashui-popover>
-        </div>
-        <div class="mt-5">
-            <p class="font-semibold mb-3">Pagination</p>
-            <div class="bg-white">
-                <x-dashui-pagination label="1-50 of 8,450 orders" previous="#0" next="#0"/>
-            </div>
         </div>
     </div>
 </div>

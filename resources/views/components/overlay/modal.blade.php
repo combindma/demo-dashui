@@ -3,8 +3,7 @@
     <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-button type="button" aria-controls="modal-default">Show modal window</x-dashui-button>
 
-        <x-dashui-modal activator="modal-default" title="Reach more shoppers with Instagram product tags" role="alertdialog" aria-labelledby="modal-title"
-                        aria-describedby="modal-description">
+        <x-dashui-modal activator="modal-default" title="Reach more shoppers with Instagram product tags" role="alertdialog" aria-labelledby="modal-title" aria-describedby="modal-description">
             <p>Use Instagram posts to share your products with millions of people. Let shoppers buy from your store without leaving Instagram.</p>
             <x-slot:actions>
                 <x-dashui-button type="button" class="js-modal__close">Learn more</x-dashui-button>

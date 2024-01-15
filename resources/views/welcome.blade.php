@@ -50,7 +50,6 @@
             <div class="lg:col-span-9">
                 @include('components.feedback.banner')
                 @include('components.feedback.alert')
-                @include('components.feedback.banner')
                 @include('components.feedback.inline-error')
                 @include('components.feedback.flash-message')
                 @include('components.feedback.circle-loader')
@@ -83,6 +82,7 @@
             </div>
             <div class="lg:col-span-9">
                @include('components.navigation.action-link')
+               @include('components.navigation.pagination')
                @include('components.navigation.tabs')
                @include('components.navigation.page-header')
                @include('components.navigation.top-bar')

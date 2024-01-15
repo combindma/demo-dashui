@@ -45,7 +45,7 @@
             </fieldset>
         </div>
 
-        <form>
+        <div>
             <fieldset class="mb-5 lg:mb-8">
                 <legend class="mb-3 text-contrast-higher font-medium">Inline custom Radio Buttons</legend>
 
@@ -87,6 +87,6 @@
                     </li>
                 </ul>
             </fieldset>
-        </form>
+        </div>
     </div>
 </div>
