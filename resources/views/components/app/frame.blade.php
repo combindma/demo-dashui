@@ -77,7 +77,7 @@
             </div>
         </aside>
 
-        <main class="relative h-screen grow z-[1] sidebar-loaded:show">
+        <main class="relative min-h-screen grow z-[1] sidebar-loaded:show">
             <!-- start main content -->
             <div class="p-5 lg:p-8">
                 <p class="text-lg">Main content.</p>
