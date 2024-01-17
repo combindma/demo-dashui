@@ -64,6 +64,7 @@
                 @include('components.overlay.popover')
                 @include('components.overlay.tooltip')
                 @include('components.overlay.modal')
+                @include('components.overlay.copy-to-clipboard')
             </div>
         </div>
 
