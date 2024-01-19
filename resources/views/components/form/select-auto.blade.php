@@ -2,7 +2,7 @@
     <h1 class="mb-4 text-xl font-medium">Select Autocomplete</h1>
     <div class="bg-gray-200/60 p-4 lg:p-10">
         <label class="form-label" for="autocomplete-select">Start typing Weasley:</label>
-        <x-dashui-select-auto type="text" name="autocomplete-select" id="autocomplete-select" placeholder="e.g., Weasley" autocomplete="off">
+        <x-dashui-select-auto name="autocomplete-select" id="autocomplete-select">
             <optgroup label="Gryffindor">
                 <option>Select option</option>
                 <option value="0">Harry Potter</option>
@@ -19,7 +19,7 @@
             </optgroup>
         </x-dashui-select-auto>
 
-        <x-dashui-select-auto type="text" name="autocomplete-select-cat" id="autocomplete-select-cat" placeholder="e.g., Weasley" autocomplete="off">
+        <x-dashui-select-auto name="autocomplete-select-cat" id="autocomplete-select-cat">
             <option>Select option</option>
             <option value="0" data-category="Category 1">Option 1</option>
             <option value="1" data-category="Category 2">Option 2</option>
