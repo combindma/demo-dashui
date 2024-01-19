@@ -4,7 +4,7 @@
         <h1 class="mb-3 text-2xl font-bold lg:text-3xl">Components</h1>
         <p class="mb-10 text-lg">Components are the reusable blade blocks for creating an admin experience like Shopify.</p>
 
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 mb-10">
             <div class="lg:col-span-3">
                 <h4 class="text-xl font-bold lg:text-2xl">Elements</h4>
             </div>
@@ -38,6 +38,8 @@
                 @include('components.form.checkbox')
                 @include('components.form.inputs')
                 @include('components.form.search')
+                @include('components.form.autocomplete')
+                @include('components.form.select-auto')
                 @include('components.form.drop-zone')
                 @include('components.form.tag')
             </div>

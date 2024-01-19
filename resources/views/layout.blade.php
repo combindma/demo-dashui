@@ -14,5 +14,6 @@
 
 <script src="https://unpkg.com/codyhouse-framework/main/assets/js/util.js"></script>
 @vite(['resources/js/app.js'])
+
 </body>
 </html>
