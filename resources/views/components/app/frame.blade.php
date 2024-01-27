@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-    <x-dashui-top-bar userName="Dharma" userInitials="OH" menuId="sidebar-nav" logo="https://cdn.shopify.com/s/files/1/2376/3301/files/Shopify_Secondary_Inverted.png" url="#">
+    <x-dashui-top-bar userName="Dharma" userInitials="OH" menuId="sidebar-nav" logo="{{ asset('assets/img/logo-alt.svg') }}" url="#">
         <x-slot:searchField>
             <form action="#">
                 <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="!mb-0 bg-neutral-700 text-white placeholder:text-primary-400"/>
@@ -20,7 +20,7 @@
             <div class="sidebar__panel">
                 <!-- 👇 header visible only on mobile -->
                 <header class="sidebar__header">
-                    <img class="h-auto w-[95px]" src="https://cdn.shopify.com/s/files/1/2376/3301/files/Shopify_Secondary_Inverted.png" alt="Logo">
+                    <img class="h-auto w-[95px]" src="{{ asset('assets/img/logo-alt.svg') }}" alt="Logo">
 
                     <button class="sidebar__close-btn js-sidebar__close-btn js-tab-focus bg-neutral-700 hover:bg-neutral-600">
                         <svg class="inline-block shrink-0 fill-current leading-none text-inherit icon w-[16px] h-[16px]" viewBox="0 0 16 16">
@@ -77,7 +77,7 @@
             </div>
         </aside>
 
-        <main class="relative min-h-screen grow z-[1] sidebar-loaded:show">
+        <main class="relative min-h-screen grow sidebar-loaded:show">
             <!-- start main content -->
             <div class="p-5 lg:p-8">
                 <p class="text-lg">Main content.</p>

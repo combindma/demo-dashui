@@ -1,7 +1,7 @@
 <div class="mb-10">
     <h1 class="mb-4 text-xl font-medium">Top bar</h1>
     <div class="relative bg-gray-200/60">
-        <x-dashui-top-bar class="absolute" userName="Dharma" userInitials="OH" menuId="menu-sidebar" logo="https://cdn.shopify.com/s/files/1/2376/3301/files/Shopify_Secondary_Inverted.png" url="#">
+        <x-dashui-top-bar class="absolute" userName="Dharma" userInitials="OH" menuId="menu-sidebar" logo="{{ asset('assets/img/logo-alt.svg') }}" url="#">
             <x-slot:searchField>
                 <form action="#">
                     <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="!mb-0 bg-neutral-700 text-white placeholder:text-primary-400"/>

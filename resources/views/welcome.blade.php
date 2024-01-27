@@ -37,6 +37,7 @@
             <div class="lg:col-span-9">
                 @include('components.form.checkbox')
                 @include('components.form.inputs')
+                @include('components.form.combobox')
                 @include('components.form.search')
                 @include('components.form.autocomplete')
                 @include('components.form.select-auto')
@@ -84,12 +85,12 @@
                 <h4 class="text-xl font-bold lg:text-2xl">Navigation</h4>
             </div>
             <div class="lg:col-span-9">
-               @include('components.navigation.action-link')
-               @include('components.navigation.pagination')
-               @include('components.navigation.tabs')
-               @include('components.navigation.page-header')
-               @include('components.navigation.top-bar')
-               @include('components.navigation.navigation')
+                @include('components.navigation.action-link')
+                @include('components.navigation.pagination')
+                @include('components.navigation.tabs')
+                @include('components.navigation.page-header')
+                @include('components.navigation.top-bar')
+                @include('components.navigation.navigation')
             </div>
         </div>
 
