@@ -5,9 +5,9 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "codeat3/blade-google-material-design-icons": "^1.18",
-        "combindma/dash-ui": "dev-main",
+        "combindma/dash-ui": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
@@ -24,12 +24,6 @@
         "phpunit/phpunit": "^10.1",
         "spatie/laravel-ignition": "^2.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/packages/dash-ui"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",

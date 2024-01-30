@@ -3,7 +3,8 @@ const colors = require('tailwindcss/colors')
 export default {
     content: [
         './resources/views/**/*.blade.php',
-        '../../Packages/dash-ui/resources/views/**/*.blade.php',
+        './vendor/combindma/dash-ui/resources/views/**/*.blade.php',
+        /*'../../Packages/dash-ui/resources/views/!**!/!*.blade.php',*/
     ],
     darkMode: 'class',
     theme: {
