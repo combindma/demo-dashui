@@ -29,18 +29,20 @@ cd demo-dashui
 
 2. **Install PHP Dependencies**
 ```bash
-composer install
+composer install --ignore-platform-reqs
 ```
 
 3. **Copy .env.example to .env**
-
+```bash
+cp .env.example .env
+```
 
 4. **Rebuild the application**
 ```bash
-sail build --no-cache
+./vendor/bin/sail up -d
+./vendor/bin/sail npm run build
 ```
 
 ## Running the Demo
-```bash
-./vendor/bin/sail up
-```
+
+The demo will run in your browser at [http://localhost](http://localhost)
