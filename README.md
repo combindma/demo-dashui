@@ -11,8 +11,8 @@ If you need assistance with your next project or would like to discuss a custom 
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
-- PHP ^8.1
-- Laravel 10.x or higher
+- PHP ^8.4
+- Laravel 12.x or higher
 - Composer
 - Docker
 
@@ -27,13 +27,13 @@ git clone https://github.com/combindma/demo-dashui.git
 cd demo-dashui
 ```
 
-2. **Install PHP Dependencies**
+2. **Copy .env.example to .env**
+
+
+3. **Install PHP Dependencies**
 ```bash
 composer install
 ```
-
-3. **Copy .env.example to .env**
-
 
 4. **Rebuild the application**
 ```bash
