@@ -13,6 +13,7 @@
 
         <x-dashui-button type="button" disabled="true">Disabled</x-dashui-button>
         <x-dashui-button type="button" variant="primary" disabled="true">Primary disabled</x-dashui-button>
+        <x-dashui-button type="button" variant="primary" tone="critical" disabled="true">Primary critical disabled</x-dashui-button>
         <x-dashui-button type="button" variant="secondary" disabled="true">Secondary disabled</x-dashui-button>
         <x-dashui-button type="button" variant="subtle" disabled="true">Subtle disabled</x-dashui-button>
         <x-dashui-button type="button" variant="plain" disabled="true">Plain disabled</x-dashui-button>

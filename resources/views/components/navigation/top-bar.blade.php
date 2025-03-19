@@ -4,7 +4,7 @@
         <x-dashui-top-bar class="absolute" userName="Dharma" userInitials="OH" menuId="menu-sidebar" logo="{{ asset('assets/img/logo-alt.svg') }}" url="#">
             <x-slot:searchField>
                 <form action="#">
-                    <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="!mb-0 bg-neutral-700 text-white placeholder:text-primary-400"/>
+                    <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="mb-0! bg-neutral-700 text-white placeholder:text-primary-400"/>
                 </form>
             </x-slot:searchField>
             <x-slot:userMenu>

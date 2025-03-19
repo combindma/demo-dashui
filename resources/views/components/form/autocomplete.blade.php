@@ -3,7 +3,7 @@
     <div class="bg-gray-200/60 p-4 lg:p-10">
         <label class="form-label" for="autocomplete-input">Start typing Sam:</label>
         <x-dashui-autocomplete activator="autocomplete1" :options="[
-        ['label' => 'Samantha Jackson', 'class' => 'bg-primary-800'],
+        ['label' => 'Samantha Jackson', 'class' => 'bg-primary-800 text-white'],
         ['label' => 'Sam Trust'],
         ['label' => 'Samuel Drake'],
         ['label' => 'Samala Anderson'],

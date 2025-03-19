@@ -3,7 +3,7 @@
     <x-dashui-top-bar userName="Dharma" userInitials="OH" menuId="sidebar-nav" logo="{{ asset('assets/img/logo-alt.svg') }}" url="#">
         <x-slot:searchField>
             <form action="#">
-                <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="!mb-0 bg-neutral-700 text-white placeholder:text-primary-400"/>
+                <x-dashui-search-input iconLeft="true" type="search" name="search" placeholder="Search..." aria-label="Search" class="mb-0! bg-neutral-700 text-white placeholder:text-primary-400"/>
             </form>
         </x-slot:searchField>
         <x-slot:userMenu>
@@ -16,7 +16,7 @@
         </x-slot:userMenu>
     </x-dashui-top-bar>
     <div class="frame">
-        <aside class="sidebar sidebar--static@md js-sidebar" data-static-class="w-full z-[1] max-w-[15rem]" id="sidebar-nav">
+        <aside class="sidebar sidebar--static@md js-sidebar" data-static-class="w-full z-1 max-w-[15rem]" id="sidebar-nav">
             <div class="sidebar__panel">
                 <!-- 👇 header visible only on mobile -->
                 <header class="sidebar__header">
