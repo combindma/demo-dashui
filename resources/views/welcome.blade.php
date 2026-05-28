@@ -40,7 +40,6 @@
                 @include('components.form.combobox')
                 @include('components.form.search')
                 @include('components.form.autocomplete')
-                @include('components.form.select-auto')
                 @include('components.form.drop-zone')
                 @include('components.form.tag')
             </div>

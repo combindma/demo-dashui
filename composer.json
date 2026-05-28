@@ -7,21 +7,17 @@
     "require": {
         "php": "^8.4",
         "codeat3/blade-google-material-design-icons": "^1.18",
-        "combindma/dash-ui": "^2.0.0",
-        "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.8"
+        "combindma/dash-ui": "^3.0",
+        "guzzlehttp/guzzle": "^7.8.0",
+        "laravel/framework": "^13.0",
+        "laravel/tinker": "^3.0"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.9",
-        "barryvdh/laravel-ide-helper": "^3.0",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^8.0",
-        "phpunit/phpunit": "^11.5",
-        "spatie/laravel-ignition": "^2.0"
+        "nunomaduro/collision": "^8.0"
     },
     "autoload": {
         "psr-4": {

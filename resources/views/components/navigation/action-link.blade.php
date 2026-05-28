@@ -2,7 +2,7 @@
     <h1 class="mb-4 text-xl font-medium">Action link</h1>
     <div class="bg-gray-200/60 p-4 lg:p-10 lg:pb-36">
         <div class="mt-5">
-            <x-dashui-button type="button" aria-controls="popover-nav-1">
+            <x-dashui-button type="button" popovertarget="popover-nav-1">
                 In a popover
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
@@ -11,7 +11,7 @@
                 <x-dashui-action-link as="link" href="#0" label="Action 2"/>
             </x-dashui-popover>
 
-            <x-dashui-button type="button" aria-controls="popover-nav-2">
+            <x-dashui-button type="button" popovertarget="popover-nav-2">
                 With an icon
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
@@ -28,7 +28,7 @@
                 </x-dashui-action-link>
             </x-dashui-popover>
 
-            <x-dashui-button type="button" aria-controls="popover-nav-3">
+            <x-dashui-button type="button" popovertarget="popover-nav-3">
                 With an icon and a suffix
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
@@ -48,7 +48,7 @@
                 </x-dashui-action-link>
             </x-dashui-popover>
 
-            <x-dashui-button type="button" aria-controls="popover-nav-4">
+            <x-dashui-button type="button" popovertarget="popover-nav-4">
                 With a destructive item
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
@@ -70,7 +70,7 @@
                 </x-dashui-action-link>
             </x-dashui-popover>
 
-            <x-dashui-button type="button" aria-controls="popover-nav-5">
+            <x-dashui-button type="button" popovertarget="popover-nav-5">
                 With a help text
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>

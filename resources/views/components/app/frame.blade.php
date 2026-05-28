@@ -15,19 +15,12 @@
             <x-dashui-action-link as="link" href="#0" label="Sign out"/>
         </x-slot:userMenu>
     </x-dashui-top-bar>
-    <div class="frame">
-        <aside class="sidebar sidebar--static@md js-sidebar" data-static-class="w-full z-1 max-w-[15rem]" id="sidebar-nav">
-            <div class="sidebar__panel">
-                <!-- 👇 header visible only on mobile -->
-                <header class="sidebar__header">
-                    <img class="h-auto w-[95px]" src="{{ asset('assets/img/logo-alt.svg') }}" alt="Logo">
-
-                    <button class="sidebar__close-btn js-sidebar__close-btn js-tab-focus bg-neutral-700 hover:bg-neutral-600">
-                        <svg class="inline-block shrink-0 fill-current leading-none text-inherit icon w-[16px] h-[16px]" viewBox="0 0 16 16">
-                            <g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
-                    </button>
-                </header>
-
+    <div class="page">
+        <x-dashui::sidebar trigger="sidebar-nav">
+            <x-slot:logo>
+                <img class="h-auto w-23.75" src="{{ asset('assets/img/logo-alt.svg') }}" alt="Logo">
+            </x-slot>
+            <x-slot:navigation>
                 <x-dashui-navigation>
                     <x-dashui-navigation-section>
                         <x-dashui-navigation-item label="Dashboard" url="#" :selected="true">
@@ -74,10 +67,10 @@
                         </x-dashui-navigation-item>
                     </x-dashui-navigation-section>
                 </x-dashui-navigation>
-            </div>
-        </aside>
+            </x-slot>
+        </x-dashui::sidebar>
 
-        <main class="relative min-h-screen grow sidebar-loaded:show">
+        <main class="relative min-h-screen grow">
             <!-- start main content -->
             <div class="p-5 lg:p-8">
                 <p class="text-lg">Main content.</p>

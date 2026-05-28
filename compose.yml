@@ -1,0 +1,38 @@
+services:
+  app:
+    image: serversideup/php:8.4-frankenphp
+    environment:
+      HEALTHCHECK_PATH: /up
+    ports:
+      - '80:8080'
+    volumes:
+      - '.:/var/www/html'
+      - '/Volumes/mac/Development/packages:/packages'
+    networks:
+      - laravel
+    healthcheck:
+      test: [ "CMD", "healthcheck" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    depends_on:
+      - redis
+  redis:
+    image: 'redis:alpine'
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    volumes:
+      - 'laravel-redis:/data'
+    networks:
+      - laravel
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      retries: 3
+      timeout: 5s
+networks:
+  laravel:
+    driver: bridge
+volumes:
+  laravel-redis:
+    driver: local

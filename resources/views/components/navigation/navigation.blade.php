@@ -2,7 +2,7 @@
     <h1 class="mb-4 text-xl font-medium">Default</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
-            <div class="sidebar__panel">
+            <div class="flex overflow-auto flex-col items-stretch h-full bg-[#ebebeb] w-full max-w-[15rem] max-h-full">
                 <x-dashui-navigation>
                     <x-dashui-navigation-section>
                         <x-dashui-navigation-item label="Dashboard" url="#" :selected="true">
@@ -37,7 +37,7 @@
     <h1 class="mb-4 text-xl font-medium">With secondary navigations</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
-            <div class="sidebar__panel">
+            <div class="flex overflow-auto flex-col items-stretch h-full bg-[#ebebeb] w-full max-w-[15rem] max-h-full">
                 <x-dashui-navigation>
                     <x-dashui-navigation-section>
                         <x-dashui-navigation-item label="Dashboard" url="#">
@@ -72,7 +72,7 @@
     <h1 class="mb-4 text-xl font-medium">With active root</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
-            <div class="sidebar__panel">
+            <div class="flex overflow-auto flex-col items-stretch h-full bg-[#ebebeb] w-full max-w-[15rem] max-h-full">
                 <x-dashui-navigation>
                     <x-dashui-navigation-section>
                         <x-dashui-navigation-item label="Dashboard" url="#">
@@ -107,7 +107,7 @@
     <h1 class="mb-4 text-xl font-medium">With secondary navigation section</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
-            <div class="sidebar__panel">
+            <div class="flex overflow-auto flex-col items-stretch h-full bg-[#ebebeb] w-full max-w-[15rem] max-h-full">
                 <x-dashui-navigation>
                     <x-dashui-navigation-section>
                         <x-dashui-navigation-item label="Dashboard" url="#">

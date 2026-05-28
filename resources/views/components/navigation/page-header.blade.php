@@ -64,7 +64,7 @@
             </x-slot:titleMetadata>
             <div class="flex flew-wrap items-center gap-2">
                 <x-dashui-button type="button" variant="secondary">Duplicate</x-dashui-button>
-                <x-dashui-button type="button" aria-controls="popover-actions" variant="secondary">
+                <x-dashui-button type="button" popovertarget="popover-actions" variant="secondary">
                     Promote <x-gmdi-expand-more class="w-4 h-4"/>
                 </x-dashui-button>
                 <x-dashui-button type="button" variant="primary" disabled="true">Save</x-dashui-button>

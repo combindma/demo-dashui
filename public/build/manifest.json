@@ -1,11 +1,15 @@
 {
-  "resources/css/tailwind.css": {
-    "file": "assets/tailwind-Dc1oCQpA.css",
-    "src": "resources/css/tailwind.css",
+  "resources/css/app.css": {
+    "file": "assets/app-I4UmTaiO.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-DJhCBbo5.js",
+    "file": "assets/app-DpueiwxQ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

@@ -3,7 +3,7 @@
     <div class="bg-gray-200/60 p-4 lg:p-10">
         <div class="mb-4">
             <fieldset class="mb-5 lg:mb-8">
-                <legend class="mb-3 text-contrast-higher font-medium">Custom Radio Buttons</legend>
+                <legend class="mb-3 font-medium">Custom Radio Buttons</legend>
 
                 <ul class="flex flex-col gap-1 lg:gap-1.5">
                     <li>
@@ -24,7 +24,7 @@
             </fieldset>
 
             <fieldset>
-                <legend class="mb-3 text-contrast-higher font-medium">Custom Checkboxes</legend>
+                <legend class="mb-3 font-medium">Custom Checkboxes</legend>
 
                 <ul class="flex flex-col gap-1 lg:gap-1.5">
                     <li>
@@ -47,7 +47,7 @@
 
         <div>
             <fieldset class="mb-5 lg:mb-8">
-                <legend class="mb-3 text-contrast-higher font-medium">Inline custom Radio Buttons</legend>
+                <legend class="mb-3 font-medium">Inline custom Radio Buttons</legend>
 
                 <ul class="flex flex-wrap gap-5">
                     <li>
@@ -68,7 +68,7 @@
             </fieldset>
 
             <fieldset>
-                <legend class="mb-3 text-contrast-higher font-medium">Inline custom Checkboxes</legend>
+                <legend class="mb-3 font-medium">Inline custom Checkboxes</legend>
 
                 <ul class="flex flex-wrap gap-5 lg:gap-8">
                     <li>

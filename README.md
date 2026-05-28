@@ -32,15 +32,9 @@ cd demo-dashui
 cp .env.example .env
 ```
 
-3. **Install PHP Dependencies**
+3**Build the application**
 ```bash
-composer install --ignore-platform-reqs
-```
-
-4. **Rebuild the application**
-```bash
-./vendor/bin/sail build
-./vendor/bin/sail up -d
+docker compose up -d
 ```
 
 ## Running the Demo

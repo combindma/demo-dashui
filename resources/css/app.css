@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import '../../vendor/combindma/dash-ui/resources/css/dashui.css';
+/*Used for local development*/
+/*@import '../../../../Packages/dash-ui/resources/css/dashui.css';*/
+
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@source '../views/**/*.blade.php';
+@source '../../vendor/combindma/dash-ui/resources/views/**/*.blade.php';
+@source '../../vendor/combindma/dash-ui/resources/js/dashui.js';
+
+/*Used for local development*/
+/*@source '../js/app.js';
+@source '../../../../Packages/dash-ui/resources/views!**!*.blade.php';*/
