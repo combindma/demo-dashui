@@ -1,2 +1,2 @@
 import '@tailwindplus/elements';
-import '../../vendor/combindma/dash-ui/resources/js/dashui.js';
+//import '../../vendor/combindma/dash-ui/resources/js/dashui.js';

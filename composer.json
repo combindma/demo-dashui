@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.4",
         "codeat3/blade-google-material-design-icons": "^1.18",
-        "combindma/dash-ui": "^3.0",
+        "combindma/dash-ui": "dev-main",
         "guzzlehttp/guzzle": "^7.8.0",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0"
@@ -19,6 +19,12 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^8.0"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/packages/dash-ui"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/"

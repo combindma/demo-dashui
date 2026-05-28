@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb5647e5960718bba4e2eb9cf266ba51",
+    "content-hash": "2204286dd3a81efe549ab4608bba3946",
     "packages": [
         {
             "name": "blade-ui-kit/blade-icons",
@@ -291,17 +291,11 @@
         },
         {
             "name": "combindma/dash-ui",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/combindma/dash-ui.git",
-                "reference": "5ce012a6a85d916c1bf8630e535eb9582ae27628"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/combindma/dash-ui/zipball/5ce012a6a85d916c1bf8630e535eb9582ae27628",
-                "reference": "5ce012a6a85d916c1bf8630e535eb9582ae27628",
-                "shasum": ""
+                "type": "path",
+                "url": "/packages/dash-ui",
+                "reference": "dcc8413b3d2eb97c8b434ba454c4d8b87c9be124"
             },
             "require": {
                 "illuminate/contracts": "^13.0",
@@ -329,7 +323,43 @@
                     "Combindma\\DashUi\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Combindma\\DashUi\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@composer run prepare"
+                ],
+                "clear": [
+                    "@php vendor/bin/testbench package:purge-dash-ui --ansi"
+                ],
+                "prepare": [
+                    "@php vendor/bin/testbench package:discover --ansi"
+                ],
+                "build": [
+                    "@composer run prepare",
+                    "@php vendor/bin/testbench workbench:build --ansi"
+                ],
+                "start": [
+                    "Composer\\Config::disableProcessTimeout",
+                    "@composer run build",
+                    "@php vendor/bin/testbench serve"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -343,21 +373,13 @@
             "description": "A streamlined and stylish UI component library for Laravel Blade, crafted with TailwindCSS and AlpineJs for simplicity and elegance.",
             "homepage": "https://github.com/combindma/dash-ui",
             "keywords": [
-                "combind",
+                "Combind",
                 "dash-ui",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/combindma/dash-ui/issues",
-                "source": "https://github.com/combindma/dash-ui/tree/3.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Combind",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-05-28T16:43:13+00:00"
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "dflydev/dot-access-data",
@@ -6836,7 +6858,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "combindma/dash-ui": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
